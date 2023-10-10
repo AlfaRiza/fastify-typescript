@@ -1,0 +1,21 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc -w & nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}
